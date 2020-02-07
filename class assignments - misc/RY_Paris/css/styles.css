@@ -1,0 +1,283 @@
+body {
+  margin: 0;
+  font-family: Arial;
+}
+.black {
+  font-family: "Arial Black";
+}
+.link {
+  text-decoration: none;
+  color: black;
+  padding: 0 15px;
+  font-size: 20px;
+}
+.week_bckg {
+  display: flex;
+  background: url('../images/hero-image.jpg');
+  height: 550px;
+  background-size: cover;
+  justify-content: center;
+  align-items: flex-end;
+}
+.start_week {
+  padding: 20px 20px;
+  background-color: white;
+  font-size: 30px;
+  margin-bottom: 70px;
+  font-weight: bold;
+}
+.orange_header {
+  background-color: orange;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 5px;
+  margin-bottom: 3px;
+}
+.ry_logo {
+  max-height: 100px;
+  padding-left: 70px;
+}
+.orange_links {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 100px;
+}
+/* image below is temporary */
+img {
+  width: auto;
+  height: 100px;
+}
+.meal1 {
+  height: 200px;
+  width: 280px;
+}
+.meal1img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.everyday_categories {
+  font-size: 20px;
+  padding: 0 250px;
+}
+.everyday_2 {
+  display: flex;
+  justify-content: space-between;
+}
+.meal_idea_imgs {
+  padding: 0 250px;
+  display: flex;
+  justify-content: space-between;
+}
+.meal_ideas_desc {
+  display: flex;
+  padding: 0 250px;
+  justify-content: space-between;
+}
+.desc {
+  width: 280px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+/* HEALTHY RECIPES OF WEEK */
+
+.healthy_recipes {
+  padding: 20px 175px;
+  margin: 0 75px;
+  margin-top: 20px;
+  background-color: #D1D9E9;
+}
+.healthy-p {
+  font-size: 20px;
+}
+.healthy_imgs {
+  display: flex;
+  justify-content: space-between;
+}
+.health1 {
+  height: 150px;
+  width: 200px;
+}
+.healthimg {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.healthy_img_desc {
+  display: flex;
+  justify-content: space-between;
+}
+.desc2 {
+  text-align: center;
+  width: 200px;
+  background-color: white;
+  margin-top: 0;
+  margin-bottom: 40px;
+  padding: 12px 0;
+}
+/* WHERE TO EAT */
+.where_to_eat {
+  padding: 20px 250px;
+}
+.where-p {
+  font-size: 20px;
+}
+.where_img {
+  display: flex;
+  justify-content: space-between;
+}
+.where1 {
+  height: 250px;
+  width: 275px;
+  padding: 5px;
+  background-color: #D1D9E9;
+}
+.whereimg {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.where_img_desc {
+  display: flex;
+  justify-content: space-between;
+}
+.desc-p {
+  width: 275px;
+  text-align: center;
+}
+.footer {
+  margin-top: 50px;
+  padding: 20px 250px;
+  background-color: orange;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.c {
+  font-size: 17px;
+}
+.link2 {
+  text-decoration: none;
+  color: black;
+  padding: 0 10px;
+}
+
+/* BENGAL BURGER -- RECIPE PAGE */
+
+
+.bengal_background {
+  background: url('../images/bengal-burger.jpg');
+  display: flex;
+  height: 550px;
+  background-size: cover;
+  justify-content: center;
+  align-items: flex-end;
+  margin: 0;
+}
+#orange_2 {
+  margin-bottom: 0;
+}
+.info-2 {
+  display: flex;
+}
+.sec-1 {
+  padding-right: 200px;
+}
+.bengal-info {
+  background-color: #D1D9E9;
+  margin: 0;
+  padding: 30px 70px;
+}
+.no_mar {
+  margin: 0;
+}
+/* BURGER RATING */
+.rating {
+  display: flex;
+  justify-content: center;
+}
+.rating_title {
+  font-size: 50px;
+  padding-top: 50px;
+  padding-bottom: 0;
+}
+.stars {
+  display: flex;
+  justify-content: center;
+}
+.stars2 {
+  align-content: center;
+  padding-right: 12px;
+}
+.checked {
+  color: maroon;
+  align-items: center;
+  padding-top: 20px;
+}
+.spc {
+  margin-left: 10px;
+}
+.button {
+  background-color: maroon;
+  color: white;
+  border: none;
+  font-size: 15px;
+  border-radius: 25px;
+  padding: 10px 35px;
+}
+.fa-print {
+  padding: 10px 0;
+}
+/* cant center below */
+.review {
+  display: flex;
+  justify-content: center;
+  margin: 50px 250px 0 250px;
+  /* width: 750px; */
+  padding: 20px 60px;
+  background-color: #D1D9E9;
+}
+.review-p {
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+}
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+/* INGREDIENTS/DIRECTIONS */
+
+.ingre-dire {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 250px;
+  margin-bottom: 100px;
+}
+.ingredients {
+  width: 450px;
+  height: auto;
+}
+.directions {
+  width: 500px;
+  height: auto;
+}
+ol li, ul li {
+  line-height: 20px;
+}
+.b {
+  font-weight: bold;
+}
+.space {
+  padding-top: 20px;
+}
+.space2 {
+  padding-top: 3px;
+}
+.spice {
+  list-style: none;
+}
